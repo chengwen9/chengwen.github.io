@@ -8,7 +8,7 @@ output:
 
 # Welcome to Wen's website
 ![](IMG_9509.jpg)
-Photographed by Wen
+Photographed by Wen Cheng
 
 ## Projects in R
 * [P8105 HW1](https://github.com/chengwen9/p8105_hw1_wc2788) 

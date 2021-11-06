@@ -1,0 +1,54 @@
+---
+title: "Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    source: embed
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+data("rest_inspec") 
+
+rest_inspec %>%
+  mutate(text_label = str_c("Grade",grade, "\nScore ", score)) %>% 
+  plot_ly(
+    x = ~cuisine_description, y = ~score, type = "scatter", mode = "markers",
+    color = ~grade, text = ~text_label, alpha = 0.5)
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+rest_inspec %>%
+  count(violation_code) %>% 
+  filter(n > 100) %>% 
+  mutate(violation_code = factor(violation_code), 
+         violation_code = fct_reorder(violation_code, n)) %>%
+  plot_ly(x = ~violation_code, y = ~n, color = ~violation_code, type = "bar", colors = "viridis")
+```
+
+### Chart C
+
+```{r}
+rest_inspec %>% 
+  filter(cuisine_description == "American",
+         boro != "0") %>%
+  plot_ly(x = ~boro, y = ~score, type = "box", colors = "viridis")
+```
+
