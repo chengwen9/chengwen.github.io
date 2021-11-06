@@ -1,0 +1,63 @@
+---
+title: "Wen Cheng"
+output: 
+  html_document:
+  toc: true
+  toc_float: true
+---
+# Education
+### Columbia University
+* Master of Science in Biostatistics
+
+
+### Stony Brook Univeristy
+* Bachelor of Science in Applied Mathematics and Statistics, Economics
+* GPA: 3.5/4.0 
+
+## Research Experience
+### A Study on the Relationship between Genomic Features and Cancer Phenotypes
+
+* Used R and Github to analyze the relationship between age and gender with the risk of cancer 
+
+* Conducted in-depth literature research on the pathologies with a genomic basis and determined to study the association between gene and cancer
+
+* Imported and cleaned data from GDC API and made a random selection of data including the male of 500 and the female of 500 by R
+
+* Arranged data and made relational plots by R
+
+* Presented results and made prediction through data visualization
+
+
+## Course Project 
+### Course Project for ECO 360: Money and Banking
+
+* Collected data concerning the stock price of Nasdaq, S&P500, Dow Jones and predicted that the stock market would fall based on data analysis
+
+* Analyzed the graphs of unemployment rate, real GDP per capita, inflation, real interest rate, money velocity, stock price index from Fed St. Louis
+
+* Presented the huge and dramatic influence of coronavirus crisis on the decreasing of economic activities in the US through analyzing a great deal of historical data
+
+
+## Internship Experience
+### Intern Lobby Manager, China CITIC Bank
+
+* Introduced bank business to clients and taught them to operate the self-service terminals 
+
+* Got familiar with the procedures of accounts opening, cancellation and transfer as well as how to handle with the credit card business
+
+* Achieved an understanding of the financial products of the company and recommended different financial products to clients in accordance with their demands
+
+
+## Teaching Experience
+### Teaching Assistant, Course of Applied Calculus IV: Differential Equations
+
+* Checked and marked students’ homework, invigilated an exam and recorded students’ scores of exams
+
+* Solved students’ problems about homework or coursework via zoom
+
+### Teaching Assistant, Course of Introduction to Economics
+
+* Invigilated a mid-term exam and answered students’ questions in the office hours via zoom
+
+
+
