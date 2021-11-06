@@ -1,0 +1,11 @@
+---
+title: "About Wen"
+output: 
+  html_document:
+  toc: true
+  toc_float: true
+---
+
+I am a First-year Master of Science student at the Columbia University Mailman School of Public Health, major in Biostatistics. I am currently looking for a summer internship and always interested in a challenge. Reach out to wc2788@cumc.columbia.com to connect!
+
+

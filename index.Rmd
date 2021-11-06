@@ -1,0 +1,24 @@
+---
+title: "Wen Cheng"
+output: 
+  html_document:
+  toc: true
+  toc_float: true
+---
+
+# Welcome to Wen's website
+![](IMG_9509.jpg)
+Photographed by Wen
+
+## Projects in R
+* [P8105 HW1](https://github.com/chengwen9/p8105_hw1_wc2788) 
+* [P8105 HW2](https://github.com/chengwen9/p8105_hw2_wc2788) 
+* [P8105 HW3](https://github.com/chengwen9/p8105_hw3_wc2788) 
+* [P8105 HW4](https://github.com/chengwen9/chengwen9.github.io) 
+
+
+## Know More About Me
+* [Resume](resume.html)
+* [LinkedIn](https://www.linkedin.com/in/wen-cheng-a535ab16b/)
+* [GitHub](https://github.com/chengwen9)
+
